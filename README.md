@@ -34,3 +34,21 @@ Roboflow'dan alınan bir veri setiyle eğittiğim nesne tespiti modeli.
 ## Dosyalar
 - `Orange.ipynb`: Eğitim kodu (Google Colab'da açılıp çalıştırılabilir)
 - `best.pt`: Eğitilmiş model
+
+## Test Seti Sonuçları (Unseen Data)
+
+Modelin eğitim sürecinde hiç görmediği **Test** veri seti üzerindeki performans metrikleri:
+
+| Metrik | Değer |
+| :--- | :--- |
+| **Precision** | 0.91 |
+| **Recall** | 0.89 |
+| **mAP50** | 0.94 |
+| **mAP50-95** | 0.88 |
+
+### Test Görseli Örnekleri
+<img width="640" height="640" alt="000134_jpg rf 249b21b91d1e1f08a87c8e871ec0229a" src="https://github.com/user-attachments/assets/34ba093a-e312-423e-a6f4-ff704320097e" />
+<img width="640" height="640" alt="000042_jpg rf 07c6d17ab1c8b8af4d78dce947c323d7" src="https://github.com/user-attachments/assets/d0e51dcc-33a0-4272-8189-a322f01bc47b" />
+<img width="640" height="640" alt="000016_jpg rf 283739de221a0bbb165412acf96d7b9d" src="https://github.com/user-attachments/assets/2c20e70c-e23d-4af4-80d4-a9f3bad52f29" />
+
+
